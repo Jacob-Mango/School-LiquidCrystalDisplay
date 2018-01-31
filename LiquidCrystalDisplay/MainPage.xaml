@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="LiquidCrystalDisplay.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LiquidCrystalDisplay"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" VerticalAlignment="Center">
+
+    <Grid Background="{ThemeResource SystemControlAcrylicWindowBrush}">
+        <Frame x:Name="frmMain" Content="Frame" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Center"/>
+
+        <Button x:Name="btnZero" Content="0" HorizontalAlignment="Right" Margin="0,-256,100,0" VerticalAlignment="Center" Width="64" Height="64" Click="btnZero_Click"/>
+        <Button x:Name="btnOne" Content="1" HorizontalAlignment="Right" Margin="0,-256,36,0" VerticalAlignment="Center" Width="64" Height="64" Click="btnOne_Click"/>
+        <Button x:Name="btnTwo" Content="2" HorizontalAlignment="Right" Margin="0,-128,100,0" VerticalAlignment="Center" Width="64" Height="64" Click="btnTwo_Click"/>
+        <Button x:Name="btnThree" Content="3" HorizontalAlignment="Right" Margin="0,-128,36,0" VerticalAlignment="Center" Width="64" Height="64" Click="btnThree_Click"/>
+        <Button x:Name="btnFour" Content="4" HorizontalAlignment="Right" Margin="0,0,100,0" VerticalAlignment="Center" Width="64" Height="64" Click="btnFour_Click"/>
+        <Button x:Name="btnFive" Content="5" HorizontalAlignment="Right" Margin="0,0,36,0" VerticalAlignment="Center" Width="64" Height="64" Click="btnFive_Click"/>
+        <Button x:Name="btnSix" Content="6" HorizontalAlignment="Right" Margin="0,128,100,0" VerticalAlignment="Center" Width="64" Height="64" Click="btnSix_Click"/>
+        <Button x:Name="btnSeven" Content="7" HorizontalAlignment="Right" Margin="0,128,36,0" VerticalAlignment="Center" Width="64" Height="64" Click="btnSeven_Click"/>
+        <Button x:Name="btnEight" Content="8" HorizontalAlignment="Right" Margin="0,256,100,0" VerticalAlignment="Center" Width="64" Height="64" Click="btnEight_Click"/>
+        <Button x:Name="btnNine" Content="9" HorizontalAlignment="Right" Margin="0,256,36,0" VerticalAlignment="Center" Width="64" Height="64" Click="btnNine_Click"/>
+    </Grid>
+</Page>
